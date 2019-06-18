@@ -12,6 +12,12 @@ to initialize the virtualenv:
 ```
 pipenv --python 3.6
 ```
+singin into the evn shell
+
+```
+pipenv shell
+```
+
 now to install the requirements:
 
 ```
