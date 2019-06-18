@@ -12,7 +12,7 @@ to initialize the virtualenv:
 ```
 pipenv --python 3.6
 ```
-singin into the evn shell
+sing in into the env shell
 
 ```
 pipenv shell
