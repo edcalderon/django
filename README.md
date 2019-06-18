@@ -1,20 +1,13 @@
 # django
 my repo to learn django
 
+#### Requirements
 We are going to use pipenv like virtualenv so if you need it, install it as:
 
+#### 1. Create Django Project
 ```
 sudo pip install pipenv
-```
-
-to initialize the virtualenv:
-
-```
 pipenv --python 3.6
-```
-sing in into the env shell
-
-```
 pipenv shell
 ```
 
@@ -23,3 +16,12 @@ now to install the requirements:
 ```
 pipenv install -r requirements.txt
 ```
+
+#### 2. Create Django Project
+```
+cd /path/to/dev/folder
+mkdir src
+cd src
+django-admin startproject try_django .
+```
+
