@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>good {{tittle}}</h1>
+    {% for obj in object_list %}
+        {{obj.tittle}} <br/>
+        {{obj.content}} <br/>
+        {{obj.timestamp}} <br/>
+        {{obj.update}} <br/>
+        {{obj.id}} <br/>
+    {% endfor %}    
+</body>
+</html>
