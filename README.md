@@ -17,11 +17,15 @@ now to install the requirements:
 pipenv install -r requirements.txt
 ```
 
-#### 2. Create Django Project
+#### 2. Create Django Project (created in repo)
 ```
 cd /path/to/dev/folder
 mkdir src
 cd src
 django-admin startproject try_django .
 ```
+#### 2. Run proyect server
 
+```
+python manage.py runserver
+```
