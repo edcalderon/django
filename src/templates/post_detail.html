@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block content %}
+
     <h1>good {{tittle}}</h1>
     
         {{instance.tittle}} <br/>
@@ -11,6 +9,5 @@
         {{instance.timestamp}} <br/>
         {{instance.update}} <br/>
         {{instance.id}} <br/>
-      
-</body>
-</html>
+
+{% endblock content %}

@@ -21,6 +21,6 @@ from django.conf.urls import url, include
 from posts import urls as post_urls
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('posts/', include(post_urls)),
+    url('admin/', admin.site.urls),
+    url('posts/', include(post_urls, namespace='posts')),
 ]

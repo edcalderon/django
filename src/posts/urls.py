@@ -11,10 +11,13 @@ from .views import (
         post_delete,
     )
 
+app_name = 'posts'
+
 urlpatterns = [
-    path('', post_list),
+    path('', post_list, name='list'),
     path('create/', post_create),
-    url(r'detail/(?P<id>\d+)/$', post_detail),
-    path('update/', post_update),
-    path('delete/', post_delete),
+    url(r'(?P<id>\d+)/$', post_detail, name='detail'),
+    url(r'(?P<id>\d+)/edit/$', post_update, name='update'),
+    url(r'(?P<id>\d+)/delete/$', post_delete),
 ]
+
